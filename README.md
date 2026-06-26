@@ -1,44 +1,5 @@
 # Week_9_Blog_API Assignment 
 
-Repository navigation
-Code
-Issues
-Pull requests
-Production-ready Blog API built with Node.js, Express.js, MongoDB, Mongoose, and Joi validation. Features include full CRUD operations, slug-based article routing, search functionality, request validation, middleware architecture, and scalable backend structure for real-world blog management.
-
- 0 stars
- 0 forks
- 0 watching
- Branches
- Tags
- 
- kayodeakanni/Blog-API-week-9-assignment
-Name	
-kayodeakanni
-kayodeakanni
-last month
-config
-last month
-controllers
-last month
-middleware
-last month
-models
-last month
-routes
-last month
-utils
-last month
-validators
-last month
-.gitignore
-last month
-README.md
-last month
-package.json
-last month
-Repository files navigation
-
 README
 Production Blog API
 A production-ready Blog API built with Node.js, Express.js, MongoDB, Mongoose, and Joi validation. This project follows clean backend architecture with proper folder structure, validation middleware, slug generation, full CRUD operations, and search functionality for managing blog articles professionally.
@@ -139,6 +100,7 @@ Delete Article
 DELETE /articles/:slug
 Search Articles
 GET /articles/search?q=backend
+
 Sample Request Body
 {
   "title": "Nodejs Backend Guide",
@@ -151,6 +113,7 @@ Sample Request Body
   "status": "published",
   "readingTime": "5 min read"
 }
+
 Future Improvements
 JWT Authentication
 User Registration & Login
@@ -164,6 +127,7 @@ Deployment on Render
 Rate Limiting
 Helmet Security
 Redis Caching
+
 Author
 Kayode Akanni 
 Backend Developer | Node.js | Express.js | MongoDB
